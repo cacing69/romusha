@@ -148,9 +148,9 @@ Dengan delayMs dan injectAs:
 Evaluasi logika boolean.
 
 ```json
-{ "and": [condition1, condition2] }
-{ "or": [condition1, condition2] }
-{ "not": condition }
+{ "and": ["condition1", "condition2"] }
+{ "or": ["condition1", "condition2"] }
+{ "not": "condition" }
 ```
 
 ## Argumen
@@ -393,7 +393,7 @@ Pendekatan penugasan yang lebih ringkas:
 
 {
   "set": {
-    "total": { "call": { "fn": "sum", "args": [...] } }
+    "total": { "call": { "fn": "sum", "args": ["..."] } }
   }
 }
 ```
