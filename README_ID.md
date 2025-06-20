@@ -2,6 +2,10 @@
 
 Romusha adalah DSL (Domain Specific Language) berbasis JSON untuk mendeklarasikan logika, ekspresi, dan workflow secara modular, agnostik, dan lintas platform.
 
+## Filosofi
+
+Romusha adalah "pekerja" logika. Ia tidak menulis perintah, tapi mengeksekusi deklarasi — netral, modular, dan agnostic.
+
 ## Tujuan
 
 - Menyediakan struktur deklaratif untuk menyusun logika dan proses
@@ -481,7 +485,3 @@ Memungkinkan conditional behavior:
 - Date/Time: now, addDays, formatDate
 - Env: getEnv
 - Crypto: hash, compare
-
-## Filosofi
-
-Romusha adalah "pekerja" logika. Ia tidak menulis perintah, tapi mengeksekusi deklarasi — netral, modular, dan agnostic.
